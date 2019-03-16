@@ -1,7 +1,7 @@
-# Лекция 2
-В этой папке находятся решения для задач из [второй лабораторной](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/lectures-and-assignments/core-c-control-structures-variables-scope-and-uninitialized-memory/)  
-Файлы **triangulates.c** и **factorial.c** - решения к проблемам 1 и 2, соответственно.  
-Я компилирую через **cygwin** (см. первую лекцию и необходимый софт для курса):  
+# Р›РµРєС†РёСЏ 2
+Р’ СЌС‚РѕР№ РїР°РїРєРµ РЅР°С…РѕРґСЏС‚СЃСЏ СЂРµС€РµРЅРёСЏ РґР»СЏ Р·Р°РґР°С‡ РёР· [РІС‚РѕСЂРѕР№ Р»Р°Р±РѕСЂР°С‚РѕСЂРЅРѕР№](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/lectures-and-assignments/core-c-control-structures-variables-scope-and-uninitialized-memory/)  
+Р¤Р°Р№Р»С‹ **triangulates.c** Рё **factorial.c** - СЂРµС€РµРЅРёСЏ Рє РїСЂРѕР±Р»РµРјР°Рј 1 Рё 2, СЃРѕРѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕ.  
+РЇ РєРѕРјРїРёР»РёСЂСѓСЋ С‡РµСЂРµР· **cygwin** (СЃРј. РїРµСЂРІСѓСЋ Р»РµРєС†РёСЋ Рё РЅРµРѕР±С…РѕРґРёРјС‹Р№ СЃРѕС„С‚ РґР»СЏ РєСѓСЂСЃР°):  
 ```<>
 gcc -Wall -std=c99 triangulates.c -o triangulates  
 gcc -Wall -std=c99 factorial.c -o factorial  
