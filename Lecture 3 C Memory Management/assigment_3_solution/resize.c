@@ -5,6 +5,7 @@
 int main() {
 	//Allows you to generate random number
 	srand(time(NULL));
+	setbuf(stdout, NULL);
 
 	// Allows user to specify the original array size, stored in variable n1.
 	printf("Enter original array size: ");

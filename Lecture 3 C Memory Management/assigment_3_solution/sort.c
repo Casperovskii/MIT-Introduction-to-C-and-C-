@@ -26,6 +26,7 @@ void sort(int A[], int n) {
 int main() {
 	//Allows use to generate random numbers
 	srand(time(NULL));
+	setbuf(stdout, NULL);
 
 	//Read a user input integer and store it in n
 	int n;
